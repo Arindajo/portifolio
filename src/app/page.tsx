@@ -5,69 +5,44 @@ export default function Home() {
     <main className="min-h-screen bg-slate-50 text-slate-900 px-6 py-12">
       <section className="max-w-4xl mx-auto">
         {/* Hero Section */}
-        <header className="mb-16">
-          <h1 className="text-4xl font-extrabold tracking-tight">Junior Fullstack Developer</h1>
-          <p className="mt-4 text-lg text-slate-600">
-            Frontend UI/UX 
-          </p>
-        </header>
+<header className="flex flex-col md:flex-row items-center gap-8 mb-16">
+  <div className="relative w-32 h-32 md:w-40 md:h-40 overflow-hidden rounded-full border-4 border-blue-500 shadow-lg">
+    <img 
+      src="/profile.jpg" 
+      alt="Profile Photo" 
+      className="object-cover w-full h-full"
+    />
+  </div>
+  <div className="text-center md:text-left">
+    <h1 className="text-4xl font-extrabold tracking-tight">Junior Fullstack Developer</h1>
+    <p className="mt-2 text-lg text-slate-600 font-medium">
+      Frontend UI/UX 
+    </p>
+    <p className="text-slate-500">
+      Specializing in Frontend and Creative Design.
+    </p>
+  </div>
+</header>
 
         {/* Projects Grid */}
         <h2 className="text-2xl font-bold mb-6">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ProjectCard 
-            title="TrackFunds"
-            role="Lead Fullstack Developer"
-            description="A mobile budget tracker that helps users manage expenses in real-time."
-            tags={["Flutter", "Node.js", "PostgreSQL"]}
-          />
-          <ProjectCard 
-            title="Service Portal"
-            role="Frontend Team Lead"
-            description="A secure dashboard for accounting associations to manage memberships."
-            tags={["React", "TypeScript", "Tailwind CSS"]}
-          />
-        </div>
-        {/* Skills Section */}
-<section className="mt-20">
-  <h2 className="text-2xl font-bold mb-8">Technical Stack</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-    
-    {/* Frontend */}
-    <div>
-      <h3 className="font-semibold text-slate-900 mb-3 underline decoration-blue-500 decoration-2 underline-offset-4">Frontend</h3>
-      <ul className="space-y-2 text-slate-600">
-        <li>React.js / Next.js</li>
-        <li>TypeScript</li>
-        <li>Flutter & Dart</li>
-        <li>Tailwind CSS</li>
-      </ul>
-    </div>
-
-    {/* Backend */}
-    <div>
-      <h3 className="font-semibold text-slate-900 mb-3 underline decoration-green-500 decoration-2 underline-offset-4">Backend</h3>
-      <ul className="space-y-2 text-slate-600">
-        <li>Node.js / Express</li>
-        <li>PostgreSQL</li>
-        <li>REST APIs</li>
-        <li>Python</li>
-      </ul>
-    </div>
-
-    {/* Professional Workflow */}
-    <div>
-      <h3 className="font-semibold text-slate-900 mb-3 underline decoration-purple-500 decoration-2 underline-offset-4">DevOps & Tools</h3>
-      <ul className="space-y-2 text-slate-600">
-        <li>Git / GitHub</li>
-        <li>CI/CD (GitHub Actions)</li>
-        <li>Agile / Scrum</li>
-        <li>Vercel </li>
-      </ul>
-    </div>
-
-  </div>
-</section>
+  <ProjectCard 
+    title="TrackFunds"
+    role="Lead Fullstack Developer"
+    description="Mobile budget tracker with real-time expense management."
+    tags={["Flutter", "Node.js", "PostgreSQL"]}
+    link="https://github.com/yourusername/trackfunds"
+  />
+  <ProjectCard 
+    title="Service Portal"
+    role="Frontend Team Lead"
+    description="Secure dashboard for professional accounting associations."
+    tags={["React", "TypeScript", "Tailwind"]}
+    link="https://github.com/yourusername/service-portal"
+  />
+</div>
+       
 {/* About Section */}
 <section className="mt-20 p-8 bg-blue-50 rounded-2xl border border-blue-100">
   <h2 className="text-2xl font-bold mb-4">About Me</h2>
