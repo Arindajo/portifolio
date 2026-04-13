@@ -114,7 +114,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between w-full items-center text-sm text-slate-400 font-medium pt-12 border-t border-slate-50">
             <p>© 2026 Arinda Josephine. Kampala, Uganda.</p>
             <div className="flex gap-8 mt-6 md:mt-0 uppercase tracking-tighter">
-               <a href="#" className="hover:text-slate-900 transition-colors">Resume</a>
+               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors">Resume</a>
                <a href="https://github.com/Arindajo" className="hover:text-slate-900 transition-colors">GitHub</a>
                <a href="https://ug.linkedin.com/in/arinda-josephine-27281a280" className="hover:text-slate-900 transition-colors">LinkedIn</a>
             </div>
