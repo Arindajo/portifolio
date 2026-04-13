@@ -21,13 +21,13 @@ export default function Home() {
         {/* HERO SECTION */}
         <header className="flex flex-col md:flex-row items-center gap-16 mb-32 py-12">
           <div className="relative shrink-0">
-            <div className="w-44 h-44 md:w-60 md:h-60 rounded-full overflow-hidden border-[6px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] ring-1 ring-slate-100">
-              <img 
-                src="/profile.jpg" 
-                alt="Arinda Josephine" 
-                className="w-full h-full object-cover scale-110" 
-              />
-            </div>
+          <div className="w-54 h-54 md:w-60 md:h-60 rounded-full overflow-hidden border-[4px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] ring-1 ring-slate-100">
+  <img 
+    src="/profile.jpg" 
+    alt="Arinda Josephine" 
+    className="w-full h-full object-cover object-top" 
+  />
+</div>
             <div className="absolute bottom-6 right-6 w-7 h-7 bg-emerald-500 border-[5px] border-white rounded-full shadow-lg animate-pulse"></div>
           </div>
 
@@ -39,7 +39,7 @@ export default function Home() {
               Junior Fullstack Developer 
             </p>
             <p className="text-slate-500 max-w-xl leading-relaxed text-xl mb-10 font-medium">
-              Specializing in <span className="text-slate-900">modular architectures</span>, Fintech logic, and IoT integrations. 
+              Specializing in modular architectures, Fintech logic, and IoT integrations. 
               Bridging clean code with creative design.
             </p>
 
@@ -64,7 +64,7 @@ export default function Home() {
                 <p>
                   I am a Software Developer dedicated to building modular, 
                   high-performance applications. My professional journey is driven by 
-                  <span className="text-slate-900 font-medium text-blue-600/80 italic"> learning by doing</span>, 
+                   continuos learning, 
                   which leads me to prioritize clean, reusable code and professional Agile 
                   workflows to deliver simple solutions to complex problems. Beyond traditional web 
                   development, I am passionate about IoT engineering, working on FinTech Solutions, 
