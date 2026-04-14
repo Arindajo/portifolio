@@ -39,8 +39,10 @@ export default function Home() {
               Junior Fullstack Developer 
             </p>
             <p className="text-slate-500 max-w-xl leading-relaxed text-xl mb-10 font-medium">
-              Specializing in modular architectures, Fintech logic, and IoT integrations. 
+              My focus is building scalable, maintainable solutions that solve real user problems.
+              i enjoy building responsive user interfaces.
               Bridging clean code with creative design.
+              Always learning, Always Building.
             </p>
 
             <div className="flex gap-4 justify-center md:justify-start">
@@ -62,8 +64,7 @@ export default function Home() {
               </h3>
               <div className="text-slate-600 text-xl leading-relaxed font-light">
                 <p>
-                  I am a Software Developer dedicated to building modular, 
-                  high-performance applications. My professional journey is driven by 
+                  I am a Software Developer dedicated to building user focused applications. My professional journey is driven by 
                    continuos learning, 
                   which leads me to prioritize clean, reusable code and professional Agile 
                   workflows to deliver simple solutions to complex problems. Beyond traditional web 
@@ -79,14 +80,14 @@ export default function Home() {
         <section id="tech" className="mb-40">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
             <div>
-              <h2 className="text-4xl font-black mb-2">Technical Expertise</h2>
+              <h2 className="text-4xl font-black mb-2">Tech Stack</h2>
               <p className="text-slate-500">The tools and technologies I use to bring ideas to life.</p>
             </div>
             <div className="h-1 bg-slate-100 flex-1 mx-8 hidden md:block mb-4 rounded-full"></div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <StackCard title="Frontend" items={["React.js / Next.js", "TypeScript (TSX)", "Flutter & Dart", "Tailwind CSS"]} color="blue" />
-            <StackCard title="Backend" items={["Node.js / Express", "PostgreSQL", "Django", "REST APIs"]} color="green" />
+            <StackCard title="Frontend" items={["React.js / Next.js", "TypeScript (TSX)", "Flutter & Dart"]} color="blue" />
+            <StackCard title="Backend" items={["Node.js / Express", "PostgreSQL", "Django", ]} color="green" />
             <StackCard title="Design" items={["Figma", "Adobe Photoshop", "Adobe Illustrator"]} color="orange" />
             <StackCard title="DevOps" items={["Agile & Scrum", "Git / GitHub", "CI/CD Pipelines"]} color="purple" />
           </div>
